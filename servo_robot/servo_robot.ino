@@ -30,8 +30,8 @@ void setup() {
   CircuitPlayground.irReceiver.enableIRIn(); // Start the receiver
   Serial.println("Ready to receive IR signals");
  
-  leftWheel.attach(A1); //attaches the servo on pin 9
-  rightWheel.attach(A2); //attaches the servo on pin 9
+  leftWheel.attach(A2); //attaches the servo on pin 9
+  rightWheel.attach(A1); //attaches the servo on pin 9
 
   rightWheel.write(SERVO_OFF);
   leftWheel.write(SERVO_OFF);
